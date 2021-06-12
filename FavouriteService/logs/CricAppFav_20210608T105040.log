@@ -1,0 +1,124 @@
+2021-06-08 10:50:41 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hcl.favourite.controller.FavouriteControllerTest], using SpringBootContextLoader
+2021-06-08 10:50:41 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.hcl.favourite.controller.FavouriteControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-08 10:50:41 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.hcl.favourite.controller.FavouriteControllerTest]: FavouriteControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-08 10:50:41 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.hcl.favourite.FavouriteServiceApplication for test class com.hcl.favourite.controller.FavouriteControllerTest
+2021-06-08 10:50:41 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-06-08 10:50:41 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12c7a01b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13d9b21f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2826f61, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@62727399, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4d9ac0b4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@130dca52, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2654635, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@737a135b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@687ef2e0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@15dcfae7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3da05287, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1e636ea3]
+2021-06-08 10:50:43 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1219a3d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-08 10:50:43 [main] INFO  c.h.f.c.FavouriteControllerTest -
+				No active profile set, falling back to default profiles: default
+2021-06-08 10:50:45 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-08 10:50:46 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2021-06-08 10:50:46 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2021-06-08 10:50:46 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 37 ms
+2021-06-08 10:50:46 [main] INFO  c.h.f.c.FavouriteControllerTest -
+				Started FavouriteControllerTest in 4.001 seconds (JVM running for 6.69)
+2021-06-08 10:50:46 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2021-06-08 10:50:46 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2021-06-08 10:50:46 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 1 ms
+2021-06-08 10:50:46 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2021-06-08 10:50:46 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2021-06-08 10:50:46 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2021-06-08 10:50:46 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2021-06-08 10:50:46 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2021-06-08 10:50:46 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2021-06-08 10:50:46 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hcl.favourite.FavouriteServiceApplicationTest], using SpringBootContextLoader
+2021-06-08 10:50:46 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.hcl.favourite.FavouriteServiceApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-08 10:50:46 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.hcl.favourite.FavouriteServiceApplicationTest]: FavouriteServiceApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-08 10:50:46 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.hcl.favourite.FavouriteServiceApplication for test class com.hcl.favourite.FavouriteServiceApplicationTest
+2021-06-08 10:50:46 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-06-08 10:50:46 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@46c662f2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4afdfc0f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@10b67f54, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@30798137, org.springframework.test.context.support.DirtiesContextTestExecutionListener@455da438, org.springframework.test.context.transaction.TransactionalTestExecutionListener@60652518, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@438aaa9f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3f06ebe0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1752e45c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5ed65e4b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@481ed95c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@40cf6254]
+2021-06-08 10:50:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1219a3d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-08 10:50:47 [main] INFO  c.h.f.FavouriteServiceApplicationTest -
+				No active profile set, falling back to default profiles: default
+2021-06-08 10:50:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-06-08 10:50:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 117ms. Found 1 repository interfaces.
+2021-06-08 10:50:48 [main] WARN  o.s.boot.actuate.endpoint.EndpointId -
+				Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-06-08 10:50:49 [main] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=825d1f25-b53d-3112-b212-66801eeef9f7
+2021-06-08 10:50:49 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$bc6b5f0a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-08 10:50:49 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1219a3d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-08 10:50:50 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-06-08 10:50:50 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:27017 to client view of cluster
+2021-06-08 10:50:50 [cluster-ClusterId{value='60befe323562b11f8cc4e007', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:99}] to localhost:27017
+2021-06-08 10:50:50 [cluster-ClusterId{value='60befe323562b11f8cc4e007', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 6]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6192801}
+2021-06-08 10:50:50 [cluster-ClusterId{value='60befe323562b11f8cc4e007', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2021-06-08 10:50:52 [main] WARN  c.n.c.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2021-06-08 10:50:52 [main] INFO  c.n.c.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-08 10:50:52 [main] INFO  c.n.config.DynamicPropertyFactory -
+				DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@bafc754
+2021-06-08 10:50:53 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver -
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-06-08 10:50:53 [main] WARN  c.n.c.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2021-06-08 10:50:53 [main] INFO  c.n.c.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-08 10:50:54 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-08 10:50:55 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2021-06-08 10:50:55 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2021-06-08 10:50:55 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2021-06-08 10:50:55 [main] INFO  c.h.f.FavouriteServiceApplicationTest -
+				Started FavouriteServiceApplicationTest in 8.578 seconds (JVM running for 15.888)
+2021-06-08 10:50:55 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hcl.favourite.log.LoggerTest], using SpringBootContextLoader
+2021-06-08 10:50:55 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.hcl.favourite.log.LoggerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-08 10:50:55 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.hcl.favourite.log.LoggerTest]: LoggerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-08 10:50:55 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.hcl.favourite.FavouriteServiceApplication for test class com.hcl.favourite.log.LoggerTest
+2021-06-08 10:50:55 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-06-08 10:50:55 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@35ab83a7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7a7698f4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1150b923, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@54c2cfc9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3d9dc84d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@73625632, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@676f70dc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2591477f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@761d3c20, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@172f2717, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@bda4cbe, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@24df4805]
+2021-06-08 10:50:55 [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-08 10:50:55 [Thread-10] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2021-06-08 10:50:55 [Thread-10] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application FAVOURITESERVICE with eureka with status DOWN
+2021-06-08 10:50:55 [Thread-10] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Shutting down ExecutorService 'applicationTaskExecutor'

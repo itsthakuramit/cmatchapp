@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow:scroll;
+ background-color: peru;
+}
+
+.logout{
+  position:relative;
+}
+
+.sign-up{
+  position:relative;
+  right: 180px;
+}
+
+.sign-in{
+  position:relative;
+}
+
+.toolbar{
+  width: auto;
+  height: 80px;
+}
+
+.logo_container {
+  width:70px;
+  height:auto;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:60px;
+}
+
+.logo_header {
+  width:70px;
+  height: 70px;;
+}
+
+.example-flex-container{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 190px;
+  margin-left: 23%;
+  gap : 30px;
+}
+
+.match-button{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  position: relative;
+  left: 300px;
+}
+
+
+.mat-container{
+  width: auto;
+  margin: 10px;
+  margin-top: 30px;
+  margin-left: 38px;
+}
+
+.mat-card {
+    border-radius: 15px;
+    margin: 2rem;
+    display: inline-flex;
+    flex-direction: row;
+    border-style: ridge;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(195, 140, 224);
+}
+
+.card-content{
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  row-gap: 10px;
+  font-weight: 100;
+}
+
+
+.ml15{
+  margin-left:20px;
+}
+
+.indicator{
+ background-color: rgb(11, 76, 179);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  margin:4px 0;
+}
+
+.mat-button{
+  position: absolute;
+  margin-left: 63px; 
+  margin-top: 225px;
+}
+
+h1{
+  text-align: center;
+  font-size: 2.5em;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+
+.search-box{
+  display: flex;
+  flex-direction: row;
+  margin-left: 400px;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.search-button{
+  background-color: chocolate;
+  width: 70px;
+  height: 50px;
+  border-color: black;
+  margin-top: 20px;
+}
+

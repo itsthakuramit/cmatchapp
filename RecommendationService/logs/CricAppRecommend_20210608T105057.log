@@ -1,0 +1,116 @@
+2021-06-08 10:50:58 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hcl.recommendation.controller.RecommendationControllerTest], using SpringBootContextLoader
+2021-06-08 10:50:58 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.hcl.recommendation.controller.RecommendationControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-08 10:50:58 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.hcl.recommendation.controller.RecommendationControllerTest]: RecommendationControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-08 10:50:58 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.hcl.recommendation.MatchRecommendationServiceApplication for test class com.hcl.recommendation.controller.RecommendationControllerTest
+2021-06-08 10:50:58 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-06-08 10:50:58 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12c7a01b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13d9b21f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2826f61, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@62727399, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4d9ac0b4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@130dca52, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2654635, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@737a135b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@687ef2e0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@15dcfae7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3da05287, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1e636ea3]
+2021-06-08 10:51:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1219a3d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-08 10:51:00 [main] INFO  c.h.r.c.RecommendationControllerTest -
+				No active profile set, falling back to default profiles: default
+2021-06-08 10:51:02 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-08 10:51:03 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2021-06-08 10:51:03 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2021-06-08 10:51:03 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 35 ms
+2021-06-08 10:51:03 [main] INFO  c.h.r.c.RecommendationControllerTest -
+				Started RecommendationControllerTest in 4.192 seconds (JVM running for 6.657)
+2021-06-08 10:51:03 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2021-06-08 10:51:03 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2021-06-08 10:51:03 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2021-06-08 10:51:04 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2021-06-08 10:51:04 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2021-06-08 10:51:04 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2021-06-08 10:51:04 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2021-06-08 10:51:04 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2021-06-08 10:51:04 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2021-06-08 10:51:04 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hcl.recommendation.log.LoggerTest], using SpringBootContextLoader
+2021-06-08 10:51:04 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.hcl.recommendation.log.LoggerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-08 10:51:04 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.hcl.recommendation.log.LoggerTest]: LoggerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-08 10:51:04 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.hcl.recommendation.MatchRecommendationServiceApplication for test class com.hcl.recommendation.log.LoggerTest
+2021-06-08 10:51:04 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-06-08 10:51:04 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@455da438, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@60652518, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@438aaa9f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3f06ebe0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1752e45c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5ed65e4b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@481ed95c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@40cf6254, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@40bf0e15, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2c77344f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@121ddca4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@297bd171]
+2021-06-08 10:51:04 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1219a3d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-08 10:51:04 [main] INFO  c.hcl.recommendation.log.LoggerTest -
+				No active profile set, falling back to default profiles: default
+2021-06-08 10:51:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-06-08 10:51:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 113ms. Found 1 repository interfaces.
+2021-06-08 10:51:05 [main] WARN  o.s.boot.actuate.endpoint.EndpointId -
+				Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-06-08 10:51:06 [main] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=231a2fec-86ce-39d4-8ee8-c8d913e59683
+2021-06-08 10:51:06 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$bc6b5f0a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-08 10:51:06 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1219a3d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-08 10:51:07 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-06-08 10:51:07 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:27017 to client view of cluster
+2021-06-08 10:51:07 [cluster-ClusterId{value='60befe433562b10a60adb8c1', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:100}] to localhost:27017
+2021-06-08 10:51:07 [cluster-ClusterId{value='60befe433562b10a60adb8c1', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 6]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7417299}
+2021-06-08 10:51:07 [cluster-ClusterId{value='60befe433562b10a60adb8c1', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2021-06-08 10:51:08 [main] WARN  c.n.c.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2021-06-08 10:51:08 [main] INFO  c.n.c.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-08 10:51:08 [main] WARN  c.n.c.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2021-06-08 10:51:08 [main] INFO  c.n.c.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-08 10:51:08 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-08 10:51:10 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver -
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-06-08 10:51:11 [main] INFO  c.hcl.recommendation.log.LoggerTest -
+				Started LoggerTest in 6.921 seconds (JVM running for 14.323)
+2021-06-08 10:51:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hcl.recommendation.RecommendationServiceApplicationTest], using SpringBootContextLoader
+2021-06-08 10:51:11 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.hcl.recommendation.RecommendationServiceApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-08 10:51:11 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.hcl.recommendation.RecommendationServiceApplicationTest]: RecommendationServiceApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-08 10:51:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.hcl.recommendation.MatchRecommendationServiceApplication for test class com.hcl.recommendation.RecommendationServiceApplicationTest
+2021-06-08 10:51:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-06-08 10:51:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@77902ed6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1c0a4f87, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5f5076f9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@19439ec4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6f53f5a4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@21ebf9be, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7d50b4c4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7860a014, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@86e8469, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@76b6bad3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@e38d655, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7325b786]
+2021-06-08 10:51:11 [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-08 10:51:11 [Thread-10] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2021-06-08 10:51:11 [Thread-10] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application RECOMMENDATIONSERVICE with eureka with status DOWN
+2021-06-08 10:51:11 [Thread-10] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Shutting down ExecutorService 'applicationTaskExecutor'

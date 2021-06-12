@@ -1,0 +1,60 @@
+version: '3'
+services:
+
+  user-mysql:
+     image: mysql:8.0.15
+     network_mode: host
+     ports:
+       - "3306:3306"
+     environment:
+       MYSQL_ROOT_PASSWORD: root
+       MYSQL_PASSWORD: root
+       MYSQL_DATABASE: DockerMatchDB
+       MYSQL_HOST: localhost
+
+  user-mongo:
+     image: mongo
+     network_mode: host
+     ports:
+       - "27017:27017"
+     environment:
+       MONGO_DATABASE: MatchDB
+       MONGO_PORT: 27017
+       MONGO_HOST: localhost
+
+  userservice:
+     image: userservice
+     build: 
+       context: userservice/
+     depends_on:
+       - user-mysql
+     ports:
+       - "8091:8091"
+     network_mode: host
+     restart: always
+
+  recommendationservice:
+     image: recommendationservice
+      build: 
+        context: recommendationservice/
+     depends_on:
+        - user-mongo
+     ports:
+        - "8092:8092"
+     network_mode: host
+     restart: always   
+     
+  favouriteservice:
+     image: favouriteservice
+     build: 
+       context: favouriteservice/
+     depends_on:
+       - user-mongo
+     ports:
+       - "8093:8093"
+     network_mode: host
+     restart: always
+
+  
+       
+

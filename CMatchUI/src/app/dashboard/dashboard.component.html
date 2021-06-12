@@ -1,0 +1,46 @@
+<html>
+
+<body>
+  <mat-toolbar class="toolbar" color="primary">
+    <div class="logo-container">
+      <a [routerLink]="['/dashboard']">
+        <img src="../../assets/images/logo.png" class="logo_header" alt="My Logo">
+      </a>
+    </div>
+    <span>CMatchApp</span>
+    <div class="match-button">
+      <button id="newMatches" color="warn" mat-raised-button [routerLink]="['/new-matches']">New Matches</button>
+      <button id="oldMatches" color="warn" mat-raised-button [routerLink]="['/old-matches']">Old Matches</button>
+    </div>
+    <div class="example-flex-container">
+      <div class="example-button-container">
+        <button id="fav-button" mat-fab color="warn" [routerLink]="['/favourites']"
+          aria-label="Example icon button with a heart icon">
+          <mat-icon>favorite</mat-icon>
+        </button>
+      </div>
+      <div class="example-button-container">
+        <button id="recommend-button" mat-fab color="warn" [routerLink]="['/recommendation']"
+          aria-label="Example icon button with a filter list icon">
+          <mat-icon>filter_list</mat-icon>
+        </button>
+      </div>
+    </div>
+    <button class="logout" *ngIf="check" color="accent" mat-raised-button (click)="logout()">Logout</button>
+    <button class="sign-in" *ngIf="!check" color="secondary" mat-raised-button [routerLink]="['/login']">Login</button>
+    <button class="sign-up" *ngIf="!check" color="accent" mat-raised-button
+      [routerLink]="['/register']">Register</button>
+  </mat-toolbar>
+
+  <div class="mat-container">
+    <h1><b>Match Calender</b></h1>
+    <mat-card class="mat-card" *ngFor="let cal of calMatches">
+      <mat-card-content class="card-content">
+        <p title="team-1"><b>Teams : </b>{{cal.name}}</p><br>
+        <p title="team-2"><b>Date : </b>{{cal.date}}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</body>
+
+</html>

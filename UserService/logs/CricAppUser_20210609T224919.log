@@ -1,0 +1,124 @@
+2021-06-09 22:49:21 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$688e3464] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-09 22:49:21 [main] INFO  com.hcl.user.UserServiceApplication -
+				No active profile set, falling back to default profiles: default
+2021-06-09 22:49:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-06-09 22:49:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 113ms. Found 1 repository interfaces.
+2021-06-09 22:49:23 [main] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=7fee5552-9be5-3908-8324-03557c61ad77
+2021-06-09 22:49:24 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4c743167] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-09 22:49:24 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$688e3464] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-09 22:49:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8091 (http)
+2021-06-09 22:49:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8091"]
+2021-06-09 22:49:24 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2021-06-09 22:49:24 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.14]
+2021-06-09 22:49:24 [main] INFO  o.a.c.core.AprLifecycleListener -
+				The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\Cyclopes\Downloads\sts-4.10.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Cyclopes/Downloads/sts-4.10.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/Cyclopes/Downloads/sts-4.10.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Cyclopes\AppData\Local\Microsoft\WindowsApps;C:\Users\Cyclopes\AppData\Roaming\npm;C:\Users\Cyclopes\Downloads\sts-4.10.0.RELEASE;;.]
+2021-06-09 22:49:25 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2021-06-09 22:49:25 [main] INFO  o.s.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 3470 ms
+2021-06-09 22:49:25 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2021-06-09 22:49:25 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2021-06-09 22:49:26 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-06-09 22:49:26 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate Core {5.3.7.Final}
+2021-06-09 22:49:26 [main] INFO  org.hibernate.cfg.Environment -
+				HHH000206: hibernate.properties not found
+2021-06-09 22:49:26 [main] INFO  o.h.annotations.common.Version -
+				HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-06-09 22:49:26 [main] INFO  org.hibernate.dialect.Dialect -
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-06-09 22:49:28 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-09 22:49:30 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-09 22:49:30 [main] WARN  c.n.c.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2021-06-09 22:49:30 [main] INFO  c.n.c.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-09 22:49:30 [main] WARN  c.n.c.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2021-06-09 22:49:30 [main] INFO  c.n.c.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-09 22:49:30 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-09 22:49:31 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2021-06-09 22:49:32 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2021-06-09 22:49:32 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON encoding codec LegacyJacksonJson
+2021-06-09 22:49:32 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using JSON decoding codec LegacyJacksonJson
+2021-06-09 22:49:32 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML encoding codec XStreamXml
+2021-06-09 22:49:32 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -
+				Using XML decoding codec XStreamXml
+2021-06-09 22:49:33 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2021-06-09 22:49:33 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2021-06-09 22:49:33 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2021-06-09 22:49:33 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2021-06-09 22:49:33 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2021-06-09 22:49:33 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2021-06-09 22:49:33 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2021-06-09 22:49:33 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2021-06-09 22:49:33 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2021-06-09 22:49:33 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2021-06-09 22:49:33 [main] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-09 22:49:33 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1623259173846 with initial instances count: 2
+2021-06-09 22:49:33 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application USERSERVICE with eureka with status UP
+2021-06-09 22:49:33 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1623259173854, current=UP, previous=STARTING]
+2021-06-09 22:49:33 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2021-06-09 22:49:33 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_USERSERVICE/Mr-Thakur:UserService:8091: registering service...
+2021-06-09 22:49:33 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2021-06-09 22:49:33 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_USERSERVICE/Mr-Thakur:UserService:8091 - registration status: 204
+2021-06-09 22:49:33 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2021-06-09 22:49:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8091"]
+2021-06-09 22:49:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8091 (http) with context path ''
+2021-06-09 22:49:34 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8091
+2021-06-09 22:49:34 [main] INFO  com.hcl.user.UserServiceApplication -
+				Started UserServiceApplication in 14.034 seconds (JVM running for 15.649)
+2021-06-09 22:51:03 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-09 22:51:03 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2021-06-09 22:51:03 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 11 ms
+2021-06-09 22:51:04 [http-nio-8091-exec-2] INFO  o.h.h.i.QueryTranslatorFactoryInitiator -
+				HHH000397: Using ASTQueryTranslatorFactory

@@ -1,0 +1,50 @@
+<html>
+
+<body>
+
+
+  <mat-toolbar class="toolbar" color="primary">
+    <div class="header-inner">
+      <div class="logo-container">
+        <a [routerLink]="['/dashboard']">
+          <img src="../../assets/images/logo.png" class="logo_header" alt="My Logo">
+        </a>
+      </div>
+    </div>
+    <span>CMatchApp</span>
+  </mat-toolbar>
+  <form>
+    <div class="container">
+      <h1 style="text-align: center;"><b>Register</b></h1>
+      <hr>
+
+      <label for="email"><b>First Name</b></label>
+      <input type="text" placeholder="Enter First Name" name="firstName" id="firstName" [(ngModel)]="user.firstName"
+        required>
+
+      <label for="email"><b>Last Name</b></label>
+      <input type="text" placeholder="Enter Last Name" name="lastName" id="lastName" [(ngModel)]="user.lastName"
+        required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="userId" id="userId" [(ngModel)]="user.userId" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" id="password" [(ngModel)]="user.password"
+        required>
+
+      <label for="psw"><b>Confirm Paaword</b></label>
+      <input type="password" placeholder="Enter password again" name="confirmPassword" id="confirmPassword" required>
+      <hr>
+
+      <button id="jumbotron.btn" type="submit" class="registerbtn" (click)="register()">Register</button>
+    </div>
+
+    <div class="container signin">
+      <p>Already have an account? <a [routerLink]="['/login']">Sign in</a>.</p>
+    </div>
+  </form>
+
+</body>
+
+</html>

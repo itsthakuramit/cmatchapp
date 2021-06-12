@@ -1,0 +1,81 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow:scroll;
+ background-color: lightgray;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+button{
+    margin :1em
+}
+
+.toolbar{
+  width: auto;
+  height: 80px;
+}
+
+.logo_container {
+  width:70px;
+  height:auto;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:60px;
+}
+
+.logo_header {
+  width:70px;
+  height: 70px;;
+}
+
+.container {
+  padding: 16px;
+  background-color: white;
+  width: 35%;
+  border-radius: 10px;
+  border-style: outset;
+  margin-top: 100px;
+  margin-right: 500px;
+  margin-left: 600px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+
+}

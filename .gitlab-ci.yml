@@ -1,0 +1,20 @@
+image: maven:3.6.3-jdk-11
+
+stages:
+    - clean
+    - compile
+    - build
+
+maven-clean:
+    stage: clean
+    script: 'mvn clean'
+
+maven-compile:
+    stage: compile
+    script: 'mvn compile'
+
+maven-build:
+    stage: build
+    script: 'mvn package -DskipTests'
+
+
